@@ -111,20 +111,18 @@ max-width: 106px;
     font-size: 24px;
     font-family: "Cormorant", serif;
     border: 2px solid black;
-    height: 385px;
-    flex-direction: column;
     align-items: center;
     background-color: white;
     scale: 70%;
     max-width: 480px;
     position: relative;
+    width: max-content;
 }
 .bio {
 display: flex;
   font-family: "Cormorant", serif;
   font-size: 36px;
   text-decoration: underline;
-  padding: 4px;
   justify-content: center;
 }
 .personal {
@@ -134,17 +132,22 @@ text-align: center;
     position: relative;
     display: flex;
     border: 2px solid black;
-    height: 400px;
     flex-direction: row;
-    scale: 63%;
-    top: -88px;
 } 
+.leftc {
+width: 168px;
+height: 252px;
+}
+.rightc {
+width: 189px;
+height: 252px;
+}
 .merch {
      position: relative;
     height: 400px;
     flex-direction: column;
     align-self: center;
-    top: -111px;
+    top: 22px;
   }
     .store-top {
 position: relative;
