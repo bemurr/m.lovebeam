@@ -4,10 +4,10 @@ max-width:500px;
  font-family: "Cormorant", serif;
 }
 body { 
-     font-family: "Cormorant", serif;
-    background-image: url(../icon/IMG_4319.jpeg);
-    background-size: contain;
-    background-repeat: repeat-y;
+ font-family: "Cormorant", serif;
+background-image: url("../icon/IMG_4319.jpeg");
+background-repeat: repeat-y;
+background-size: 500px;
 }
 .sticky-header {
 display: flex;
