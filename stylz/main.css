@@ -83,6 +83,7 @@ max-width: 106px;
     justify-content: center;
     align-content: stretch;
     margin:2ex;
+    max-width:480px;
  }
  .intro {
    display: flex;
