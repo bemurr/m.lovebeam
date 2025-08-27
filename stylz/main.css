@@ -83,15 +83,14 @@ max-width: 106px;
     justify-content: center;
     align-content: stretch;
     margin:2ex;
-    max-width:480px;
  }
  .intro {
-   display: flex;
+  display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     max-width: 480px;
-    position: absolute;
-    left: -79px;
+    position: relative;
+    align-items: center;
  }
  .beam {
   position: relative;
@@ -108,16 +107,17 @@ max-width: 106px;
   align-items: center;
  }
 .subhead {
-  display: flex;
     color: black;
     font-size: 24px;
     font-family: "Cormorant", serif;
     border: 2px solid black;
-    height: 321px;
+    height: 385px;
     flex-direction: column;
     align-items: center;
     background-color: white;
     scale: 70%;
+    max-width: 480px;
+    position: relative;
 }
 .bio {
 display: flex;
@@ -125,6 +125,10 @@ display: flex;
   font-size: 36px;
   text-decoration: underline;
   padding: 4px;
+  justify-content: center;
+}
+.personal {
+text-align: center;
 }
 .cover-image {
  position: relative;
@@ -135,7 +139,7 @@ display: flex;
     justify-content: flex-start;
     object-fit: scale-down;
     object-position: left;
-    scale: 70%;
+    scale: 63%;
     top: -88px;
 } 
 .merch {
