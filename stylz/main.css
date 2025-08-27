@@ -10,10 +10,11 @@ body {
  font-family: "Cormorant", serif;
 background-image: url("../icon/IMG_4319.jpeg");
 background-repeat: repeat-y;
-background-size: cover;
+background-size: contain;
    height: 100%;
             margin: 0;
             padding: 0; 
+ overflow: clip;
 }
 .sticky-header {
 display: flex;
