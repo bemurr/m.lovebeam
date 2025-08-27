@@ -6,13 +6,13 @@ max-width: 414px;
    height: 100%;
             margin: 0;
             padding: 0; 
-}
-body { 
- font-family: "Cormorant", serif;
-background-image: url("../icon/IMG_4319.jpeg");
+  background-image: url("../icon/IMG_4319.jpeg");
 background-repeat: repeat-y;
 background-size: 500px;
    overflow-x: clip;
+}
+body { 
+ font-family: "Cormorant", serif;
 }
 .sticky-header {
 display: flex;
