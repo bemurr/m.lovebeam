@@ -1,13 +1,19 @@
 
 html {
-max-width:500px;
+max-width: max-content;
  font-family: "Cormorant", serif;
+   height: 100%;
+            margin: 0;
+            padding: 0; 
 }
 body { 
  font-family: "Cormorant", serif;
 background-image: url("../icon/IMG_4319.jpeg");
 background-repeat: repeat-y;
 background-size: cover;
+   height: 100%;
+            margin: 0;
+            padding: 0; 
 }
 .sticky-header {
 display: flex;
