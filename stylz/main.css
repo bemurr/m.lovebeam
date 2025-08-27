@@ -131,14 +131,11 @@ display: flex;
 text-align: center;
 }
 .cover-image {
- position: relative;
+    position: relative;
     display: flex;
     border: 2px solid black;
     height: 400px;
     flex-direction: row;
-    justify-content: flex-start;
-    object-fit: scale-down;
-    object-position: left;
     scale: 63%;
     top: -88px;
 } 
