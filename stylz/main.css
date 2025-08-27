@@ -4,12 +4,16 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(../icon/IMG_4319.jpeg);
-    background-size: contain;
-    overflow-x: clip;
 }
 body { 
  font-family: "Cormorant", serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../icon/IMG_4319.jpeg);
+    background-size: contain;
+    overflow-x: clip;
+height: 1555px;
 }
 .sticky-header {
 display: flex;
