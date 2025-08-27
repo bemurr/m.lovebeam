@@ -1,6 +1,6 @@
 
 html {
-max-width:444px;
+max-width:500px;
  font-family: "Cormorant", serif;
 }
 body { 
@@ -8,6 +8,7 @@ body {
     background-image: url(../icon/IMG_4319.jpeg);
     background-size: contain;
     background-repeat: repeat-y;
+ background-size:444px;
 }
 .sticky-header {
 display: flex;
