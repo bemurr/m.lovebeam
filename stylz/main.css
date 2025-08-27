@@ -1,6 +1,7 @@
 
 html {
-max-width: 500px;
+  overflow-x: clip;
+max-width: 414px;
  font-family: "Cormorant", serif;
    height: 100%;
             margin: 0;
@@ -11,6 +12,7 @@ body {
 background-image: url("../icon/IMG_4319.jpeg");
 background-repeat: repeat-y;
 background-size: 500px;
+   overflow-x: clip;
 }
 .sticky-header {
 display: flex;
