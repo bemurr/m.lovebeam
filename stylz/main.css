@@ -1,7 +1,7 @@
 
 html {
   overflow-x: clip;
-max-width: 414px;
+max-width: 430px;
  font-family: "Cormorant", serif;
    height: 100%;
             margin: 0;
@@ -33,15 +33,15 @@ left: -37px;
     width: 88px;
 }
 .art-icons {
-    display: flex;
-    max-height: 88px;
-    max-width: 322px;
-    object-fit: contain;
-    flex-direction: row;
-    overflow: clip;
-    align-items: center;
-    left: 1px;
-    position: static;
+  display: flex;
+        max-height: 88px;
+        max-width: 322px;
+        object-fit: contain;
+        flex-direction: row;
+        overflow: clip;
+        align-items: center;
+        left: 33px;
+        position: relative;
      }
 .muse {
     position: relative;
