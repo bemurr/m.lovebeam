@@ -1,18 +1,13 @@
 
 html {
  font-family: "Cormorant", serif;
-    height: 100%;
-    margin: 0;
-    padding: 0;
 }
 body { 
  font-family: "Cormorant", serif;
-    height: 100%;
-    margin: 0;
-    padding: 0;
 background-image:url("../mental/illness/covers/cover.jpg");
-    background-size: contain;
+    background-size: cover;
     overflow-x: clip;
+ backround-repeat: repeat-y;
 }
 .sticky-header {
 display: flex;
