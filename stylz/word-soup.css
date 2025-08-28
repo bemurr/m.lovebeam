@@ -7,12 +7,10 @@ html {
 }
 body { 
  font-family: "Cormorant", serif;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-background-image:url("../icon/traced-word-back.png");
-    background-size: contain;
+    background-size: cover;
     overflow-x: clip;
+ backround-repeat: repeat-y;
+background-image:url("../icon/traced-word-back.png");
 }
 .sticky-header {
 display: flex;
