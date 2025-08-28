@@ -4,7 +4,7 @@ html {
 }
 body { 
 font-family: "Cormorant", serif;
-    background-image: url(../icon/IMG_4319.jpeg);
+  background-image:url("../icon/traced-arf-back.png")
     background-size: cover;
     overflow-x: clip;
 }
