@@ -7,6 +7,7 @@ font-family: "Cormorant", serif;
   background-image:url("../icon/traced-arf-back.png")
     background-size: cover;
     overflow-x: clip;
+ backround-repeat: repeat-y;
 }
 .sticky-header {
 display: flex;
