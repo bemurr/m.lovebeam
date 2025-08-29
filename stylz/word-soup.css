@@ -4,7 +4,7 @@ html {
 }
 body { 
  font-family: "Cormorant", serif;
-    background-size: cover;
+   background-size: contain;
     overflow-x: clip;
  backround-repeat: repeat-y;
 background-image:url("../icon/traced-word-back.png");
