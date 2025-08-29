@@ -4,8 +4,8 @@ html {
 }
 body { 
 font-family: "Cormorant", serif;
-  background-image:url("../icon/traced-arf-back.png")
-    background-size: cover;
+  background-image:url("../icon/traced-arf-back.png");
+   background-size: contain;
     overflow-x: clip;
  backround-repeat: repeat-y;
 }
