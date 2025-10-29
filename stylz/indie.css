@@ -7,11 +7,8 @@ html {
 }
 body { 
  font-family: "Cormorant", serif;
-    height: 100%;
-    margin: 0;
-    padding: 0;
 background-image:url("../mental/illness/edits/IMG_4049.jpg");
-    background-size: contain;
+    background-size: cover;
     overflow-x: clip;
 }
 .sticky-header {
