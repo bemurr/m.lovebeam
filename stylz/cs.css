@@ -7,7 +7,7 @@ font-family: "Cormorant", serif;
     background-image:url("../mental/illness/covers/cs.jpg");
     background-size: cover;
     overflow-x: clip;
-    }
+    backround-repeat: repeat-y;
 .sticky-header {
 display: flex;
 }

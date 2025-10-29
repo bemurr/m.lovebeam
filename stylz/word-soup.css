@@ -6,7 +6,10 @@ body {
  font-family: "Cormorant", serif;
 background-image:url("../icon/traced-word-back.png");
     background-size: cover;
+   background-size: contain;
     overflow-x: clip;
+ backround-repeat: repeat-y;
+background-image:url("../icon/traced-word-back.png");
 }
 .sticky-header {
 display: flex;
