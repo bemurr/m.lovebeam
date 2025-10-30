@@ -6,270 +6,184 @@ background-image:url("../mental/mucus/hf/IMG_5229.jpeg");
 background-size: 100%;
 }
 .sticky-header {
-     background-color: #c3eaf9;
-    display: flex;
-    width: -webkit-fill-available;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: auto;
-    max-height: 7.25em;
+display: flex;
+}
+.icon {
+display: flex;
+position:relative;
 }
 .logo {
-  display: flex; 
-  padding: 0;
-  margin: 0 2 0;
+  position:absolute;
+scale: 55%;
+top: -25px;
+left: -37px;
 }
-.nav-bar {
-  display: flex !important;
-  box-shadow: var(--shadow-elevation-1) !important;
-  -webkit-box-align: stretch !important;
-  align-items: stretch !important;
-  flex-wrap: nowrap !important;
-  height: 99px !important;
-  flex-direction: row;
-  width: 1669px;
-}
-.mental-illness {
-  display: flex;
-  background-color: #C3FAE5;
-  margin: 1.5em 1em 1em 1.5em;
-  height: 57px;
-  justify-content:space-evenly;
-  color: black;
-}
-.mental-illness a {
-  float: left;
-  font-size: 20px;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  }
-.art-icons {
-    display: flex;
+.home {
+       display: flex;
     position: relative;
-    margin: 1em 1em 1em 2.5em;
-   max-height: 6.5vh;
-    max-width: 25.4vw;
- }
-.muse {
-  width: 80%;
-  display: flex;
+    width: 88px;
 }
-.word {
-  width: 70%;
+.art-icons {
   display: flex;
+        max-height: 88px;
+        max-width: 322px;
+        object-fit: contain;
+        flex-direction: row;
+        overflow: clip;
+        align-items: center;
+        left: 11px;
+        position: relative;
+     }
+.muse {
+    position: relative;
+    scale: 16%;
+    left: -269px;
+    top: -13px;
+    border: 4px solid black;
+    }
+.word {
+       position: relative;
+    scale: 15%;
+    left: -203px;
+    top: -3px;
+    border: 4px solid black;
   }
 .arf {
-  width: 70%;
-  display: flex;
+position: relative;
+    scale: 16%;
+    left: -200px;
+    top: -1px;
+    border: 4px solid black;
   }
-  .mucus {
-  float: left;
-  overflow: hidden;
-  width: 200px;
-  text-align: center;
-  }
-.word-soup {
-  float: left;
-  overflow: hidden;
-  width: 200px;
-  text-align: center;
-  }
+ .mucus {
+     max-width:106px;
+ }
+.shadows {
+max-width: 106px;
+}
 .digi {
-  float: left;
-  overflow: hidden;
-  width: 200px;
-  text-align: center;
-  }
-  .prem {
-  float: left;
-  overflow: hidden;
-  width: 200px;
-  text-align: center;
-  }
-.mucus .dropbtn {
-  font-size: 20px;  
-  border: none;
-  outline: none;
-  color: black;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-  text-align: center;
-  }
-.mucus:hover .dropdown-content-1 {
-  display: block;
-  }
-.prem:hover .drop2 {
-  display: block;
-  }
-.navbar a:hover, .mucus:hover .dropbtn {
-  background-color: blue;
-}
-.dropdown-content-1 {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin: 0em 0em 0em 0em;
-  z-index: 1;
-}
-.dropdown-content-2 {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin: 0em 0em 0 0em;
-  z-index: 1;
-  }
-  .drop2 {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin: -2.65em 0em -7em 11em;
-  z-index: 1;
-  }
-  .dropdown-content-3 {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin: 0em 0em 0 1em;
-  z-index: 1;
-  }
-.dropdown-content-1 a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-}
-
-.dropdown-content-1 a:hover {
-  background-color: #ddd;
-} 
-.dropdown-content-2 a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-}
-.drop2 a {
-  float: none;
-  color: black;
-  padding: 12px 45px;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  
-}
-.dropdown-content-2 a:hover {
-  background-color: #ddd;
-  }
-  .drop2 a:hover {
-  background-color: #ddd;
-  }
-  .dropdown-content-3 a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  
-}
-
-.dropdown-content-3 a:hover {
-  background-color: #ddd;
-  }
-.word-soup .dropbtn {
-  font-size: 20px;  
-  border: none;
-  outline: none;
-  color: black;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-  }
-.digi .dropbtn {
-  font-size: 20px;  
-  border: none;
-  outline: none;
-  color: black;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-  }
-.word-soup:hover .dropdown-content-2 {
-  display: block;
-  }
-.navbar a:hover, .word-soup:hover .dropbtn {
-  background-color: blue;
-}
-.digi:hover .dropdown-content-3 {
-  display: block;
-  }
-.navbar a:hover, .digi:hover .dropbtn {
-  background-color: blue;
-  }
-  .navbar a:hover, .prem:hover .dropbtn2 {
-  background-color: #ddd;
-  }
-  .dropbtn2 {
-   font-size: 20px;  
-  border: none;
-  outline: none;
-  color: black;
-  padding: 14px 45px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-  }
-.soul {
-margin: 0 0 0 4em;
+max-width: 106px;
 }
 .title {
-      position: relative;
-    color: black;
-    font-size: 25px;
-    font-family: "Cormorant", serif;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    text-wrap-mode: nowrap;
-    padding: 0 0 0 24px;
- }
- 
-.socials {
-  margin: auto;
-  right: 0;
-  width: 300px !important;
-  display: flex;
-  justify-content: flex-end;
- }
- 
-.outer {
-  height: 52px;
- }
- 
-figcaption {
-  text-align: center;
+  position: relative;
+  color: black;
+  font-size: 20px;
  font-family: "Cormorant", serif;
+  text-align: center;
+  text-shadow: 2px 2px 2px #fff;   
  }
+ .front-page {
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+    margin:2ex;
+ }
+ .intro {
+  display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 480px;
+    position: relative;
+    align-items: center;
+ }
+ .beam {
+  position: relative;
+  display: flex ;
+  color: black;
+  font-size: 20px;
+ font-family: "Cormorant", serif;
+  border: 2px solid black;
+  height: 400px;
+  width: 300px;
+  margin: 0 2 0;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+ }
+.subhead {
+    color: black;
+    font-size: 24px;
+    font-family: "Cormorant", serif;
+    border: 2px solid black;
+    align-items: center;
+    background-color: white;
+    scale: 70%;
+    max-width: 480px;
+    position: relative;
+    width: max-content;
+}
+.bio {
+display: flex;
+  font-family: "Cormorant", serif;
+  font-size: 36px;
+  text-decoration: underline;
+  justify-content: center;
+}
+.personal {
+text-align: center;
+}
+.cover-image {
+    position: relative;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+} 
+.leftc {
+width: 168px;
+height: 252px;
+}
+.rightc {
+width: 189px;
+height: 252px;
+}
+.merch {
+     position: relative;
+    height: 400px;
+    flex-direction: column;
+    align-self: center;
+    top: 22px;
+  }
+    .store-top {
+position: relative;
+  display: flex ;
+  border: 2px solid black;
+  height: 300px;
+  width: 300px;
+  flex-direction: row;
+  justify-content: flex-start;
+  object-fit: scale-down;
+  object-position: left;
+  }
+.store-bottom {
+position: relative;
+  display: flex ;
+  border: 2px solid black;
+  height: 300px;
+  width: 300px;
+  flex-direction: row;
+  justify-content: flex-start;
+  object-fit: scale-down;
+  object-position: left;
+  }
+.socials {
+    color: palegreen;
+    text-align:center; 
+    margin: -20px;
+ }
+  .topdeck {
+  display: flex;
+  margin: .5em 0 0 .5em;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  }
+   .bottomdeck {
+  display: flex;
+  margin: .5em 0 0 .5em;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  }
  .era1 {
   display: flex;
   margin: .5em 0 0 .5em;
