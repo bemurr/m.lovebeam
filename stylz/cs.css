@@ -286,7 +286,8 @@ font-family: "Cormorant", serif;
 font-style: italic;
 font-size: 20px;
 margin: .5em;
-color:#c73133
+color:#c73133;
+text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 .tracks-col-1 {
  flex-direction: column;
@@ -303,5 +304,6 @@ margin: 0 0 0 2em;
 display: flex;
 width: 500px;
 height: 100px;
-color: #c73133
+color: #c73133;
+text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
