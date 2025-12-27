@@ -90,6 +90,7 @@ max-width: 106px;
     max-width: 480px;
     position: relative;
     align-items: center;
+    top: -50px;
  }
  .beam {
   position: relative;
@@ -132,6 +133,7 @@ text-align: center;
     display: flex;
     border: 2px solid black;
     flex-direction: row;
+        top: -40px;
 } 
 .leftc {
 width: 168px;
@@ -146,7 +148,6 @@ height: 252px;
     height: 400px;
     flex-direction: column;
     align-self: center;
-    top: 22px;
   }
     .store-top {
 position: relative;
@@ -175,7 +176,31 @@ position: relative;
     text-align:center; 
     margin: -20px;
  }
- 
+ .hood {
+font-family: "Cormorant", serif;
+  text-decoration: underline;
+ color:#02FFCF;
+ text-align:center;
+} 
+.newnew {
+height:300px;
+width:300px;
+}
+.fblock {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.save {
+text-decoration: underline;
+font-size: large;
+font-family: "Cormorant", serif;
+text-align: center;
+color: #FFFFFF
+}
+.presave {
+}
 .player {
   height: 48px;
   visibility: visible;
